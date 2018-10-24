@@ -23,20 +23,11 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        int a = 1;
-        log.d("a:",String.valueOf(a));
-        int b = 2;
-        log.d("b:",String.valueOf(b));
-        int c = a + b;
-        log.d("c:",String.valueOf(c));
-
-
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Comprobando que funciona nuestro control de versiones", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Comprobando que funciona nuestro GITHUB ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
